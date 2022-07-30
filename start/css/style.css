@@ -53,7 +53,7 @@ img {
 }
 
 .header {
-	background-image: url(/start/images/header-bg.jpg);
+	background-image: url(../images/header-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -64,7 +64,7 @@ img {
 .header::before {
 	content: "";
 	position: absolute;
-	background-image: url(/start/images/header-decor.svg);
+	background-image: url(../images/header-decor.svg);
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -79,7 +79,7 @@ img {
 .header::after {
 	content: "";
 	position: absolute;
-	background-image: url(/start/images/header-decor.svg);
+	background-image: url(../images/header-decor.svg);
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -200,7 +200,7 @@ img {
 /*----------MAIN_INFO----------------*/
 
 .info {
-	background-image: url(/start/images/info-bg.jpg);
+	background-image: url(../images/info-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -374,7 +374,7 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url(/start/images/Star\ 1.svg);
+	background-image: url(../images/Star\ 1.svg);
 	transition: transform .3s;
 }
 
@@ -413,7 +413,7 @@ img {
 }
 
 .technology__top {
-	background-image: url(/start/images/tech-bg.png);
+	background-image: url(../images/tech-bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
