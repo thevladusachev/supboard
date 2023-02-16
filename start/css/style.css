@@ -123,55 +123,59 @@ img {
 
 /*---------------POPUP-PAY----------------------------*/
 
-.popup-pay {
-	display: block;
-	z-index: 50;
-}
 
 .popup-pay__content {
-	display: grid;
 	position: fixed;
-	top: 200px;
-	left: 200px;
-	width: 1000px;
-	height: 500px;
-	background-color: rgba(15, 19, 16, 0.724);
-	border-radius: 50px;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgb(0, 0, 0, 0.6);
+	z-index: 10;
+	display: none;
+}
 
-	align-items: center;
+.open {
+	display: block;
 }
 
 .popup-pay__container {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1000px;
+	height: 500px;
+	background-color: white;
+	border: #262C27 solid 3px;
+	border-radius: 50px;
 }
 
 .popup-pay__images {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	place-items: center;
-	place-content: center;
-
+	display: flex;
+	gap: 25px;
 }
 
 .popup-pay__image {
 	width: 200px;
 	height: 200px;
 
-}
 
-.popup-pay__image:hover {
-	border: #B9C400 solid 5px;
 }
 
 .popup-pay__buttons {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin-top: 10px;
-	place-items: center;
+	display: flex;
+	gap: 25px;
+	margin-top: 15px;
 
 }
 
 .popup-pay__btn {
+	width: 200px;
 	text-transform: uppercase;
 	color: #fff;
 	padding: 12px 71px;
@@ -186,10 +190,23 @@ img {
 	color: #262C27;
 }
 
+.popup-pay__close-btn {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
 
 .header__btn:hover {
 	background-color: #B9C400;
 	color: #262C27;
+}
+
+.header__phone {
+	color: #fff;
 }
 
 .header__content {

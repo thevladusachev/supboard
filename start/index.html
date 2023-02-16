@@ -18,6 +18,27 @@
 	<header class="header">
 		<div class="container">
 			<div class="header__top">
+
+				<div class="popup-pay__content" id="popup-pay__content">
+					<div class="popup-pay__container">
+						<div class="popup-pay__images">
+							<img src="/start/images/supbuy-1.webp" alt="sup1" class="popup-pay__image">
+							<img src="/start/images/supbuy-2.webp" alt="sup2" class="popup-pay__image">
+							<img src="/start/images/supbuy-3.webp" alt="sup3" class="popup-pay__image">
+							<img src="/start/images/supbuy-4.webp" alt="sup4" class="popup-pay__image">
+						</div>
+						<div class="popup-pay__buttons">
+							<button class="popup-pay__btn">BUY</button>
+							<button class="popup-pay__btn">BUY</button>
+							<button class="popup-pay__btn">BUY</button>
+							<button class="popup-pay__btn">BUY</button>
+						</div>
+						<img class="popup-pay__close-btn" id="close-btn" src="/start/images/Krestiksvgpng.ru_.png"
+							alt="icon close">
+					</div>
+				</div>
+
+
 				<a class="logo" href="#">
 					<svg width="154" height="35" viewBox="0 0 154 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path fill-rule="evenodd" clip-rule="evenodd"
@@ -26,25 +47,7 @@
 					</svg>
 
 				</a>
-				<button class="header__btn">BUY</button>
-				<div class="popup-pay">
-					<div class="popup-pay__content">
-						<div class="popup-pay__container">
-							<div class="popup-pay__images">
-								<img src="/start/images/supbuy-1.webp" alt="sup1" class="popup-pay__image">
-								<img src="/start/images/supbuy-2.webp" alt="sup2" class="popup-pay__image">
-								<img src="/start/images/supbuy-3.webp" alt="sup3" class="popup-pay__image">
-								<img src="/start/images/supbuy-4.webp" alt="sup4" class="popup-pay__image">
-							</div>
-							<div class="popup-pay__buttons">
-								<button class="popup-pay__btn">BUY</button>
-								<button class="popup-pay__btn">BUY</button>
-								<button class="popup-pay__btn">BUY</button>
-								<button class="popup-pay__btn">BUY</button>
-							</div>
-						</div>
-					</div>
-				</div>
+				<button class="header__btn" id="open-btn">BUY</button>
 				<a class="header__phone" href="tel:+17777777">+1 777 77 77</a>
 			</div>
 			<div class="header__content">
@@ -161,7 +164,7 @@
 							</li>
 							<div class="buy__price">590 €</div>
 						</ul>
-						<button class="buy__btn">BUY</button>
+						<button class="buy__btn" id="open-btn">BUY</button>
 					</div>
 					<img class="buy__img" src="./images/sup-full.jpg" alt="sup-full">
 				</div>
@@ -280,6 +283,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="/start/script.js"></script>
 </body>
 
 </html>
